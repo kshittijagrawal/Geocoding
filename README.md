@@ -9,7 +9,7 @@ The python file `geoload.py` is tasked with **creating** a database file *if not
 
 
 #### Database File  
-The database we'll be using in this project is SQLite because of the "sqlite3" package already baked in python. Where this database might not be our first choice, SQLite is just right for the amount of data we aim to retrieve, probably more. The **address field** contains the address of the particular college and the **geodata field** contains the related serialized data (JSON in our case) of the particular address.  
+The database we'll be using in this project is SQLite because of the "sqlite3" package which python has already baked in. Where this database might not be our first choice, SQLite is just right for the amount of data we aim to retrieve, probably more. The **address field** contains the address of the particular college and the **geodata field** contains the related serialized data (JSON in our case) of the particular address.  
 
 
 #### Data File  
