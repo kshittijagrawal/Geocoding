@@ -3,7 +3,7 @@ The repository contains certain lines of code that uses the concept of "Multi-St
 
 
 ### Workflow  
-The python file `geoload.py` is tasked with **creating** a database file *if not already present* (.sqlite in our case), **reading** the names of the colleges from the data file, **fetching** the address and the related serialized data from the network utilizing the Google Maps API or the "Service URL" provided to us as a secondary URL *in case we're not made available with an API KEY* : *py4e-data.dr-chuck.net* and **writing** the latter into the database file.  
+The python file `geoload.py` is tasked with **creating** a database file *if not already present* (.sqlite in our case), **reading** the names of the colleges from the data file, **fetching** the address and the related serialized data from the network utilizing the Google Maps API or the "Service URL" provided to us as a secondary URL in case we're not made available with an API KEY : *py4e-data.dr-chuck.net* and **writing** the latter into the database file.  
 
 `geodump.py` python file can be executed anytime to dump the latitude, longitude and the formatted address of all the addresses' written in our database file. However, the primary task of this file is to write the records in the `where.js` JavaScript file.
 
