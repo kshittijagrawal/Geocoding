@@ -9,15 +9,15 @@ The three steps involved in Multi-Step Data Analysis are :
 * Analyze/Visualize data  
 
 **Gathering Data** from a network is often  
-  - *Slow* because we may have 100s or maybe 1000s of data to be retrieved over a network.  
-  - *Restartable* because since our code may take time to retrieve all the data, it may sometimes enter sleep mode or    even crash.  
-  - *Limited* because obviously sometimes APIs may have rate limit attached to them.  
+    - *Slow* because we may have 100s or maybe 1000s of data to be retrieved over a network.  
+    - *Restartable* because since our code may take time to retrieve all the data, it may sometimes enter sleep mode or    even crash.  
+    - *Limited* because obviously sometimes APIs may have rate limit attached to them.  
 
 **Cleaning/Processing data** which we might have stored in a database is the second step. This is bcause the data we retrieved over the network in the first place may be raw or might contain some flaws.  
 
 **Analyzing/Visualizing data** we finally cleaned up is the final step. Here we create one, maybe more scripts to perform all the analysis on the cleaned-up data finally stored in the database. We may further use JavaScript or HTML to perform visualization.  
 
-  
+
 ### Workflow  
 The python file `geoload.py` is tasked with **creating** a database file *if not already present* (.sqlite in our case), **reading** the names of the colleges from the data file, **fetching** the address and the related serialized data from the network utilizing the Google Maps API or the "Service URL" provided to us as a secondary URL in case we're not made available with an API KEY : *py4e-data.dr-chuck.net* and **writing** the latter into the database file.  
 
