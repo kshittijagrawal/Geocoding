@@ -8,14 +8,14 @@ The three steps involved in Multi-Step Data Analysis are :
 * Clean/Process data  
 * Analyze/Visualize data  
 
-**Gathering Data** from a network is often  
-    - *Slow* because we may have 100s or maybe 1000s of data to be retrieved over a network.  
-    - *Restartable* because since our code may take time to retrieve all the data, it may sometimes enter sleep mode or    even crash.  
-    - *Limited* because obviously sometimes APIs may have rate limit attached to them.  
+**1) Gathering Data** from a network is often  
+  - *Slow* because we may have 100s or maybe 1000s of data to be retrieved over a network.  
+  - *Restartable* because since our code may take time to retrieve all the data, it may sometimes enter sleep mode or    even crash.  
+  - *Limited* because obviously sometimes APIs may have rate limit attached to them.  
 
-**Cleaning/Processing data** which we might have stored in a database is the second step. This is bcause the data we retrieved over the network in the first place may be raw or might contain some flaws.  
+**2) Cleaning/Processing data** which we might have stored in a database is the second step. This is bcause the data we retrieved over the network in the first place may be raw or might contain some flaws.  
 
-**Analyzing/Visualizing data** we finally cleaned up is the final step. Here we create one, maybe more scripts to perform all the analysis on the cleaned-up data finally stored in the database. We may further use JavaScript or HTML to perform visualization.  
+**3) Analyzing/Visualizing data** we finally cleaned up is the final step. Here we create one, maybe more scripts to perform all the analysis on the cleaned-up data finally stored in the database. We may further use JavaScript or HTML to perform visualization.  
 
 
 ### Workflow  
